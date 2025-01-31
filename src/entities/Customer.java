@@ -9,7 +9,7 @@ public class Customer {
     private String email;
     private LocalDate birthDate;
 
-    List<Order> orders = new ArrayList<>();
+    private List<Order> orders = new ArrayList<>();
 
     public Customer(){
     }
